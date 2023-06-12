@@ -1,0 +1,303 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+
+/* .ast-floating-shopping-cart {
+    top: 110px !important;
+} */
+
+.vro-lms-course-thumb {
+    position: relative;
+    padding: 0px;
+    width: 25% !important;
+    border: 1px solid #eee;
+}
+
+.vro-lms-course-content {
+    padding: 0px 10px 10px 30px;
+    width: 75% !important;
+}
+
+.vro-lms-courses-list .vro-lms-course-item {
+    background: var(--vro-lms-white-color);
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px #ccc;
+    padding: 20px;
+    height: unset !important;
+    margin: 10px 0px;
+    border-radius: 5px;
+}
+
+.vro-lms-course-thumb img {
+    width: 100%;
+    height: auto;
+    height: 143px !important;
+    min-height: auto !important;
+    display: block;
+    transition: all 0.5s ease;
+    transform: scale(1);
+}
+
+.vro-lms-course-thumbview::before {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    height: 143px !important;
+    bottom: 0;
+    left: 0;
+    opacity: 10;
+    background: rgba(0, 0, 0, 0.5);
+    content: "";
+    transition: all 0.3s;
+}
+
+.vro-lms-course-thumb {
+    position: relative;
+    padding: 0px;
+    width: 35%;
+    height: 143px !important;
+    border: 1px solid #eee;
+}
+
+.vro-lms-course-view {
+    margin: 0;
+    padding: 0 !important;
+    display: flex !important;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.vro-lms-course-wrapcontent {
+    padding: 5px 0px !important;
+    font-size: 14px;
+}
+
+.vro-lms-course-desc {
+    font-size: 14px;
+    padding: 5px 0px !important;
+    color: #666;
+}
+
+@media screen and (max-width: 767px) {
+    .vro-lms-course-thumb {
+        width: 100% !important;
+    }
+    .vro-lms-course-content {
+        width: 100% !important;
+        padding: 5px;
+    }
+    .vro-lms-course-btn-col,
+    .vro-lms-course-price-col {
+        width: unset !important;
+    }
+    /* .vro-lms-course-view {
+                    margin: 0;
+                    padding: 0 !important;
+                    display: flex !important;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    align-content: flex-start;
+                    justify-content: space-between;
+                    align-items: center;
+                } */
+}
+
+.vro-lms-course-detail-wrap,
+.vro-lms-course-certificate-wrap {
+    color: #143462 !important;
+}
+
+h2.vro-lms-overview-label {
+    font-size: 20px;
+    margin: 15px 0px;
+    color: #143462;
+    font-weight: bold;
+}
+
+a.vro-lms-contact-instrutor-link {
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.vro-lms-course-detail-author.vro-lms-overview-rm-width {
+    width: 100% !important;
+    max-width: unset;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.vro-lms-author-right-wrap {
+    margin-left: 12px;
+}
+
+.vro-lms-author-title.font-weight-bold {
+    font-weight: bold;
+}
+
+table.dataTable.table-striped>tbody>tr.odd>* {
+    box-shadow: unset !important;
+}
+
+#learning_tracks.dataTable {
+    border: transparent !important;
+}
+
+#learning_tracks.table>tbody {
+    border: transparent !important;
+}
+
+
+/* #learning_tracks tr.container-grid {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+}
+
+@media screen and (max-width: 1200px) {
+    #learning_tracks tr.container-grid {
+        display: inline-grid;
+        grid-template-columns: auto auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #learning_tracks tr.container-grid {
+        display: inline-grid;
+        grid-template-columns: auto;
+    }
+} */
+
+
+/* curricullum start model */
+
+#vro-lms-course-start-model .modal-header {
+    height: 50px;
+}
+
+#vro-lms-course-start-model .modal-header .btn-close:hover {
+    background-color: #598419 !important;
+    color: #fff !important;
+}
+
+#vro-lms-course-start-model .modal-title {
+    margin-top: 20px;
+}
+
+.video-container {
+    position: relative;
+    height: 100%;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+
+img.vro-instructor-avatar {
+    border-radius: 50%;
+}
+
+.vro-avatar-bordered {
+    box-shadow: 0 2px 2px rgb(0 0 0 / 30%);
+    border: 1px solid #598419;
+    padding: 2px;
+    border-radius: 100%;
+    color: #598419;
+}
+
+textarea#contact_instrutor_message {
+    resize: none;
+}
+
+.vro-lms-contact-instrutor-link {
+    text-decoration: none;
+}
+
+.vro-lms-fixed-grid-content {
+    padding: 22px 0 2px 0 !important;
+}
+
+@media screen and (min-width: 992px) {
+    .model-ispring-btn {
+        position: absolute;
+        left: 43%;
+    }
+}
+
+.vro-lms-course-list-li a {
+    margin-left: -10px !important;
+}
+
+.ast-floating-shopping-cart {
+    top: 23px !important;
+    right: 5px !important;
+    z-index: 9999 !important;
+    position: fixed;
+}
+
+@media screen and (max-width: 600px) {
+    .ast-floating-shopping-cart {
+        top: 10px !important;
+        right: 60px !important;
+        z-index: 9999 !important;
+    }
+}
+
+.ast-floating-shopping-cart {
+    background: none !important;
+    box-shadow: none !important;
+    color: none;
+}
+
+@media (min-width: 760px) {
+    .ast-floating-shopping-cart {
+        background: none !important;
+        box-shadow: none !important;
+        color: none !important;
+    }
+}
+
+.ast-floating-shopping-cart a {
+    color: #000 !important;
+}
+
+.ast-floating-shopping-cart a:hover {
+    color: #598419 !important;
+}
+
+.dashicons,
+.dashicons-before:before {
+    vertical-align: middle !important;
+}
+
+.btn-success-custom {
+    background-color: #598419 !important;
+    color: #fff !important;
+}
+
+.vro-lms-btn {
+    background-color: #598419 !important;
+    color: #fff !important;
+}
+
+.login #nav {
+    margin: 24px -20px 0 !important;
+}
+
+.main-header-bar .main-header-bar-navigation {
+    margin-right: 15px !important;
+}
+
+.ast-theme-transparent-header #masthead {
+    position: fixed !important;
+    background-color: #E3F1E3;
+}

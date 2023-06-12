@@ -1,0 +1,167 @@
+.update-nag.notice.notice-warning,
+.notice.elementor-message,
+.error {
+    display: none !important;
+}
+
+#wpfooter {
+    display: none !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+button.btn.submit-btn {
+    display: inline-flex;
+    background-color: #2271b1;
+    color: #fff !important;
+    width: auto;
+    margin-left: 10px !important;
+    padding: 8px 13px;
+    text-decoration: none !important;
+    font-size: 14px !important;
+    border-radius: 5px;
+    color: #333;
+    text-decoration: none;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 0px;
+    border: none;
+}
+
+button.btn.back-btn {
+    display: inline-flex;
+    background-color: transparent;
+    color: #2271b1 !important;
+    width: auto;
+    padding: 7px 13px;
+    text-decoration: none !important;
+    font-size: 14px !important;
+    border-radius: 5px;
+    text-decoration: none;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 0px;
+    border: 1px solid #2271b1;
+}
+
+textarea.textarea-custom {
+    resize: none !important;
+}
+
+.text-danger {
+    color: rgb(255, 0, 13);
+}
+
+.text-success {
+    color: rgb(0, 114, 9);
+}
+
+button#admin_order_view_model.btn.btn-link {
+    text-decoration: none !important;
+    color: #2271b1;
+}
+
+button:focus,
+.btn:focus,
+.btn::after {
+    border: none !important;
+    outline: none !important;
+}
+
+.learning-track-select {
+    padding: 0 8px;
+    line-height: 2;
+}
+
+.select2-dropdown.select2-dropdown--below {
+    margin-top: 32px !important;
+}
+
+.regular-text {
+    width: 20em !important;
+}
+
+
+/* button.btn {
+    box-shadow: none !important;
+    border: none !important;
+} */
+
+.ispring_url_label {
+    font-weight: 600;
+}
+
+a:hover,
+a:focus {
+    outline: none;
+    text-decoration: none;
+}
+
+#veolia_academy_overview-tab .nav-tabs {
+    border-bottom: 2px solid #e8e8e8;
+}
+
+#veolia_academy_overview-tab .nav-tabs button.nav-link {
+    display: block;
+    padding: 5px 12px;
+    background: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    color: #112529;
+    text-align: center;
+    border: none;
+    border-radius: 0;
+    z-index: 2;
+    position: relative;
+    transition: all 0.3s ease 0s;
+}
+
+#veolia_academy_overview-tab .nav-tabs button.nav-link:hover,
+#veolia_academy_overview-tab .nav-tabs button.nav-link.active {
+    color: #2271b1;
+    border: none;
+}
+
+#veolia_academy_overview-tab .nav-tabs button.nav-link.active {
+    color: #2271b1;
+    border: none;
+    border-bottom: 2px solid #2271b1 !important;
+}
+
+#veolia_academy_overview-tab .nav-tabs button.nav-link.active button.nav-link::after {
+    border-bottom: 2px solid #2271b1;
+}
+
+#veolia_academy_overview-tab .tab-content {
+    padding: 30px 20px 20px;
+    margin-top: 0;
+    background: #fff;
+    font-size: 15px;
+    color: #7a9181;
+    line-height: 30px;
+    border-radius: 0 0 5px 5px;
+}
+
+#form-errors,
+#form-success {
+    font-size: 18px !important;
+    font-weight: 600;
+}
+
+td.custom-flex-td {
+    display: flex;
+    flex-direction: column;
+}
+
+.vro-lms-order-details {
+    margin: 0px auto;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px #ccc;
+    padding: 20px 10px;
+}
+
+.text-right-custom {
+    text-align: right;
+}
